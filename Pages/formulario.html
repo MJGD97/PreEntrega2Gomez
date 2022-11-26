@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Adopcion Gatos Cordoba</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="inicio">
+
+    <header id="head">
+        <img class="logo" src="../Imagenes/gato1.png" alt="Logo" width="150">
+        <h1>Adopcion Gatos Cordoba</h1>
+
+        <div class="menu">
+            <div class="grid-menu">
+                <a href="./Pages/formulario.html">Adopciones</a>  
+            </div>
+            <div class="grid-menu">
+                <a href="../Pages/donaciones.html">Donaciones</a>
+            </div>
+            <div class="grid-menu">
+                <a href="../index.html">¿Quines Somos?</a>
+            </div>
+            <div class="grid-menu">
+                <a href="../Pages/hogaresprovisorios.html">Hogares Provisorios</a>
+            </div>        
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <div class="grid-gatos">
+            
+            <div 
+                class="gato"><img src="../Imagenes/GatosAdpt/gato1.webp" alt="gato1" width="400px" height="300px">
+            </div>
+            <div 
+                class="gato"><img src="../Imagenes/GatosAdpt/gato2.jpg" alt="gato2" width="400px" height="300px">
+            </div>
+            <div 
+                class="gato"><img src="../Imagenes/GatosAdpt/gato3.jpg" alt="gato3" width="400px" height="300px">
+            </div>
+            <div class="gato">Nombre: Coco / Edad: 2 años</div>
+            <div class="gato">Nombre: Rosa / Edad: 3 años</div>
+            <div class="gato">Nombre: Benito / Edad: 4 meses</div>
+            <div 
+                class="gato"><img src="../Imagenes/GatosAdpt/gato4.jpeg" alt="gato4" width="400px" height="300px">
+            </div>
+            <div 
+                class="gato"><img src="../Imagenes/GatosAdpt/gato5.jpg" alt="gato5" width="400px" height="300px">
+            </div>
+            <div 
+                class="gato"><img src="../Imagenes/GatosAdpt/gato6.jpg" alt="gato6" width="400px" height="300px">
+            </div>
+            <div class="gato">Nombre: Chisito / Edad: 4 meses</div>
+            <div class="gato">Nombre: Mumita y Doffy / Edad: 3 meses</div>
+            <div class="gato">Nombre: Ed, Eddy, Ned y Tian / Edad: 3 meses</div>
+        </div>
+
+        <div class="formulario">
+            <div class="form">
+                <form action="enviar.php" method="get" >
+                
+                    <h3>FORMULARIO DE CONTACTO</h3>
+
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" placeholder="Nombre" required>
+        
+                    <br><br>
+        
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="Apellido" placeholder="Apellido" required>
+        
+                    <br><br>
+                    <label for="Sexo">Sexo</label>
+                    <input type="radio" name="id" id="no"> Masculino
+                    <input type="radio" name="id" id="no"> Femenino
+                    <input type="radio" name="id" id="no"> Otro
+        
+                    <br><br>
+        
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" required>
+                    <br><br>
+        
+                    <label for="celular">Numero de Celular</label>
+                    <input type="number" id="celular" required>
+                    <br><br>
+        
+                    <label for="Direccion">Direccion</label>
+                    <input type="text" id="Direccion" placeholder="Direccion" required>
+                    <br><br>
+        
+                    <label for="multi">Motivo de Adopcion</label>
+                    <textarea name="multi" id="multi" cols="30" rows="5"></textarea>
+                    <br><br>
+        
+                    <input type="submit" value="Enviar">
+        
+                </form>
+            </div>
+            
+            <div class="form1">
+                <h3>TOP DONADORES</h3>
+            </div>
+
+            <div class="form2"></div>
+        </div>
+    </main>
+
+
+
+</body>
+</html>
